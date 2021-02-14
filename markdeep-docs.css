@@ -27,12 +27,12 @@ body {
 }
 /* for narrow screens or print, hide table of contents */
 @media screen and (max-width: 60em) {
-	.md .longTOC, .md .mediumTOC, .md .shortTOC { display: none; }
 	body { max-width: 100%; }
+	.md .longTOC, .md .mediumTOC, .md .shortTOC { position: relative; }
 }
 @media print {
-	.md .longTOC, .md .mediumTOC, .md .shortTOC { display: none; }
 	body { max-width: 100%; }
+	.md .longTOC, .md .mediumTOC, .md .shortTOC { position: relative; }
 }
 
 /* reset heading/link fonts to that of body */
@@ -171,3 +171,4 @@ body {
     border-left: 1.2rem solid rgba(255,23,68,.4);
     background-color: rgba(255,23,68,.15);
 }
+
