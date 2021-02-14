@@ -21,6 +21,7 @@ body {
 		width: 20%;
 		float: right;
 		position: fixed;
+        overflow-y: scroll;
 		right: 0px;
 		top: 0px;
 	}
